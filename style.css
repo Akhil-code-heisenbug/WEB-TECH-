@@ -4,59 +4,38 @@
     padding: 0;
     box-sizing: border-box;
 }
-.box{
-    height:3cm;
-    width :3cm;
-   border :1px;
+body{
+    background-color:#63B4D1;
+    text-align: center;
+}
+
+
+.container{
+    height: 70vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.game{
+    height: 60vmin;
+    width:  60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap :1.5vmin;
+} 
+ .box{
+    height: 18vmin;
+    width : 18vmin;
+   border-radius: 1rem;
+   border : none;
    box-shadow: 0 0 1rem  rgba(0,0, 0, 0.8)   ;
    font-size: 10vmin;
    color:#7699D4 ;
    background-color: white;
-   
 } 
-
-#container{
-    width:10cm ;
-    height:10cm;
-    display:grid;
-    align-items: center;
-    grid-template-columns: repeat(9,3cm);
-    grid-template-rows: repeat(9,3cm);
-    gap: 1px;
-   border: 1px;
-    align-items: center;
-    margin-left: 6cm;
-    margin-top: 2cm;
-    margin-bottom: 18cm;
-    margin-right: 5cm;
-}
-
-
-body{
-    
-        background-color:#63B4D1;
-        text-align: center;
-    
-} 
-input{
-    width:3cm;
-    height:3cm;
-    font-size:2cm;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    text-align: center;
-}
-button{
-    margin-bottom: 1cm;
-    margin-top: 1cm;
-    height: 2cm;
-    width: 5cm;
-    border-radius:1rem;
-    box-shadow: 0 0  1rem rgba(0,0, 0, 0.8);
-    font-size: large;
-    background-color: #aeb8fe;
-}
-h1{
-    font-size:3cm;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: #002244;
+.hide{
+    display: none;
 }
